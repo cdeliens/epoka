@@ -16,10 +16,9 @@
 
 	      		/*the_category(', ') ;*/
 	      		echo "</div>";
-	      		echo "<br>";
 	      		/*the_excerpt();*/
 	      		$Precio = get_post_meta($post->ID, 'Precio', true); 
-	 			echo "<div id='PrecioMain'>";
+	 			echo "<div id='PrecioMain' class='button orange small'>";
 				echo "<a href="?><?php the_permalink() ?><?php echo " 'class='button orange small'>Precio: <br>"  . $Precio ;
 				echo "<br> </a>";
 				echo "</div>";

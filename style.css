@@ -34,6 +34,9 @@ body  {
 
 } 
 
+a {
+  font-family: SegoeUINormal;
+}
 
 
 .epoka #tittle { 
@@ -431,7 +434,6 @@ padding:0px;
 	padding: 0 7px;
 	float:left;
 	width:520px;
-	height:113px;
 	text-align: justify;
 	font-family:SegoeUINormal;
 	font-size:11px;
@@ -441,7 +443,6 @@ padding:0px;
 	padding-top: 15px;
 	margin:0;
 	width:350px;
-	height:125px;
 	text-align: justify;
 	font-family:SegoeUINormal;
 	font-size:11px;
@@ -460,7 +461,6 @@ padding:0px;
 .entrylisting{
 	display:inline-block;
 	width: 680px;
-	height:135px;
 	text-decoration: none;
 	padding:0;
 	margin:0;
@@ -482,6 +482,7 @@ padding:0px;
 }
 .epoka #PrecioMain a{
 	color: white;
+      font-family: SegoeUINormal;
 }
 
 
@@ -515,7 +516,29 @@ padding:0px;
 	padding:0px;
 	background: url("images/bgwhite.png");
 	/*margin: 0 1.5em 0 13em; /* the right margin can be given in ems or pixels. It creates the space down the right side of the page. */
+}
+.epoka #mainContent-listing .navigation{
+	text-align: center;
+	font-family:SegoeUINormal;
+	font-size:16px;
+	display:inline-block;
+	text-decoration: none;
+	margin-top:5px;
+	padding: .5em 1em .55em;
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	width: 660px;
+
 } 
+.epoka #mainContent-listing .navigation a{
+	color: #606060;
+	}
+
+.epoka #mainContent-listing .navigation a.current{
+    color: #403D3D;
+}
+
 .epoka #listingCat {
 	float:left;
 	width: 700px;

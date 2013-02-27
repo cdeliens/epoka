@@ -1,13 +1,6 @@
-
-
-
-
 <div id="listingCat" class="containerMainListing">
-
-<!-- div id="tittle" >Lista de propiedades:</div -->
 <?php
 $category = get_the_category(); 
-
 ?>
 <div class="postmetadata">Propiedades Similares:</div>
 <?php	echo "<div id='indexFeaturedListing'>"?>
@@ -23,18 +16,13 @@ $category = get_the_category();
 	      		echo "<div id='featured-excerpt-cdn'>";
 	      		the_excerpt();
 	      		$Precio = get_post_meta($post->ID, 'Precio', true); 
-	 
-						 	
-				echo "<div id='PrecioMain'>";
+				echo "<div id='PrecioMain' class='button orange small epoka_green'>";
 				echo "<a href="?><?php the_permalink() ?><?php echo " 'class='button orange small'>Precio: <br>"  . $Precio ;
 				echo "<br> </a>";
 				echo "</div>";
-				
 				echo "</div>";
 				echo "</div>";
 	      		echo "</div>";?>
-
-
 		<?php endwhile; ?>
 <?php echo "</div>";?>
 		
