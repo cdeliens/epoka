@@ -1,0 +1,21 @@
+/*
+Theme Name: Epoka Theme
+Description: DiseÒo realizado para Epoka Development
+Version: 1.0
+Author: Christian Deleins
+
+*/
+
+@charset "utf-8";
+
+.featuredpost h2 a{
+text-decoration:none;
+}
+
+.thumbnail-featured{
+
+}
+
+#featured-excerpt p{
+
+}

@@ -1,0 +1,261 @@
+
+.epoka #tablaCategorias_Main .condominios{
+	display:inline-block;
+	width: 125px;
+	height:125px;
+	color:white;
+	padding: 0 2px 0 2px;
+	margin:0 ;
+	background: transparent url("images/cond.jpg");
+	-webkit-border-radius: .9em;
+	-moz-border-radius: .9em;
+	border-radius: .9em;
+	/*margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	/*padding: 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+
+}
+.epoka #tablaCategorias_Main .condominios:hover{
+	width: 125px;
+	height:125px;
+	color:white;
+	background-image: url("images/cond.jpg");
+	-webkit-border-radius: .9em;
+	-moz-border-radius: .9em;
+	border-radius: .9em;
+	filter:alpha(opacity=60);
+	-moz-opacity:0.6;  
+	-khtml-opacity: 0.6;
+	opacity: 0.6;
+	/*margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	/*padding: 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+
+}
+.epoka #tablaCategorias_Main .casas{
+	display:inline-block;
+	width: 125px;
+	height:125px;
+	margin: 0 2px 0 2px;
+	color:white;
+	background: transparent url("images/cas.jpg");
+	-webkit-border-radius: .9em;
+	-moz-border-radius: .9em;
+	border-radius: .9em;
+	-webkit-border-radius: .9em;
+	-moz-border-radius: .9em;
+	border-radius: .9em;
+	/*margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	/*padding: 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+
+}
+.epoka #tablaCategorias_Main .casas:hover{
+	width: 125px;
+	height:125px;
+	color:white;
+	background-image: url("images/cas.jpg");
+	-webkit-border-radius: .9em;
+	-moz-border-radius: .9em;
+	border-radius: .9em;
+	filter:alpha(opacity=60);
+	-moz-opacity:0.6;  
+	-khtml-opacity: 0.6;
+	opacity: 0.6;
+	/*margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	/*padding: 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+
+}
+.epoka #tablaCategorias_Main .apartamentos{
+	display:inline-block;
+	width: 125px;
+	height:125px;
+	margin: 0 2px 0 2px;
+	color:white;
+	background: transparent url("images/apart.jpg");
+	-webkit-border-radius: .9em;
+	-moz-border-radius: .9em;
+	border-radius: .9em;
+	/*margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	/*padding: 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+
+}
+.epoka #tablaCategorias_Main .apartamentos:hover{
+	width: 125px;
+	height:125px;
+	color:white;
+	background-image: url("images/apart.jpg");
+	-webkit-border-radius: .9em;
+	-moz-border-radius: .9em;
+	border-radius: .9em;
+	filter:alpha(opacity=60);
+	-moz-opacity:0.6;  
+	-khtml-opacity: 0.6;
+	opacity: 0.6;
+	/*margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	/*padding: 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+
+}
+.epoka #tablaCategorias_Main .lotes{
+	display:inline-block;
+	width: 125px;
+	height:125px;
+	margin: 0 2px 0 2px;
+	color:white;
+	background: transparent url("images/lot.jpg");
+	-webkit-border-radius: .9em;
+	-moz-border-radius: .9em;
+	border-radius: .9em;
+	/*margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	/*padding: 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+
+}
+.epoka #tablaCategorias_Main .lotes:hover{
+	width: 125px;
+	height:125px;
+	color:white;
+	background-image: url("images/lot.jpg");
+	-webkit-border-radius: .9em;
+	-moz-border-radius: .9em;
+	border-radius: .9em;
+	filter:alpha(opacity=60);
+	-moz-opacity:0.6;  
+	-khtml-opacity: 0.6;
+	opacity: 0.6;
+	
+	-webkit-border-radius: .9em;
+	-moz-border-radius: .9em;
+	border-radius: .9em;/*margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	/*padding: 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+
+}
+.epoka #tablaCategorias_Main .proyectos{
+	display:inline-block;
+	width: 125px;
+	height:125px;
+	margin: 0 2px 0 2px;
+	color:white;
+	background: transparent url("images/constru.jpg");
+	-webkit-border-radius: .9em;
+	-moz-border-radius: .9em;
+	border-radius: .9em;
+	/*margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	/*padding: 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+
+}
+.epoka #tablaCategorias_Main .proyectos:hover{
+	width: 125px;
+	height:125px;
+	color:white;
+	background-image: url("images/constru.jpg");
+	-webkit-border-radius: .9em;
+	-moz-border-radius: .9em;
+	border-radius: .9em;
+	filter:alpha(opacity=60);
+	-moz-opacity:0.6;  
+	-khtml-opacity: 0.6;
+	opacity: 0.6;
+	/*margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	/*padding: 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+
+}
+.epoka #tablaCategorias_Main .playa{
+	display:inline-block;
+	width: 125px;
+	height:125px;
+	margin: 0 2px 0 2px;
+	color:white;
+	background: transparent url("images/playa.jpg");
+	-webkit-border-radius: .9em;
+	-moz-border-radius: .9em;
+	border-radius: .9em;
+	/*margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	/*padding: 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+
+}
+.epoka #tablaCategorias_Main .playa:hover{
+	width: 125px;
+	height:125px;
+	color:white;
+	background-image: url("images/playa.jpg");
+	-webkit-border-radius: .9em;
+	-moz-border-radius: .9em;
+	border-radius: .9em;
+	filter:alpha(opacity=60);
+	-moz-opacity:0.6;  
+	-khtml-opacity: 0.6;
+	opacity: 0.6;
+	/*margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	/*padding: 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+
+}
+.epoka #tablaCategorias_Main .locales{
+	display:inline-block;
+	width: 125px;
+	height:125px;
+	margin: 0 2px 0 2px;
+	color:white;
+	background: transparent url("images/ofi.jpg");
+	-webkit-border-radius: .9em;
+	-moz-border-radius: .9em;
+	border-radius: .9em;
+	/*margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	/*padding: 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+
+}
+.epoka #tablaCategorias_Main .locales:hover{
+	width: 125px;
+	height:125px;
+	color:white;
+	background-image: url("images/ofi.jpg");
+	-webkit-border-radius: .9em;
+	-moz-border-radius: .9em;
+	border-radius: .9em;
+	filter:alpha(opacity=60);
+	-moz-opacity:0.6;  
+	-khtml-opacity: 0.6;
+	opacity: 0.6;
+	/*margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	/*padding: 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+
+}
+.epoka #tablaCategorias_Main .bodegas{
+	display:inline-block;
+	width: 125px;
+	height:125px;
+	margin: 0 2px 0 2px;
+	color:white;
+	background: transparent url("images/edi.jpg");
+	-webkit-border-radius: .9em;
+	-moz-border-radius: .9em;
+	border-radius: .9em;
+	/*margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	/*padding: 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+
+}
+.epoka #tablaCategorias_Main .bodegas:hover{
+	width: 125px;
+	height:125px;
+	color:white;
+	background-image: url("images/edi.jpg");
+	-webkit-border-radius: .9em;
+	-moz-border-radius: .9em;
+	border-radius: .9em;
+	filter:alpha(opacity=60);
+	-moz-opacity:0.6;  
+	-khtml-opacity: 0.6;
+	opacity: 0.6;
+	/*margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	/*padding: 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+
+}
+/*Menu*/
+
+.epoka #logomini{
+	width: 33px;
+	height:32px;
+	margin: 0;
+	padding:0 ;
+	background: transparent url("images/logomini.png");
+	/*margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	/*padding: 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+
+}
+

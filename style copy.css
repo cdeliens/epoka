@@ -1,0 +1,870 @@
+/*
+Theme Name: Epoka Theme
+Description: Diseño realizado para Epoka Development
+Version: 1.0
+Author: Christian Deleins
+
+*/
+
+
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	/*background: url("images/bg.epoka.light.png") repeat-x, url("images/bg.epoka.png") repeat;*/
+	background:url("images/bg.epoka.light3.png") repeat-x, #00b5cb;
+/*background:#963;  url("images/bg.epoka.light.png") repeat-x*/
+	/*margin: 2%; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	/*padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #main
+
+is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+
+
+.epoka #container { 
+	width: 650px;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	margin: 2% auto; /* the auto margins (in conjunction with a width) center the page */
+/*	border: 1px solid #000000;*/
+	display:block;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	overflow: hidden;
+	-moz-border-radius: 45px;
+	-webkit-border-radius: 45px;
+	border: 1px solid gray;
+	background: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+	background: -moz-linear-gradient(top,  #fff,  #ededed);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+
+/*	padding: 10px;
+/*	background: url(/tomar11/images/bg.transblack.png) repeat;*/
+
+} 
+.epoka #container-big { 
+	width: 960px;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	margin: 2% auto; /* the auto margins (in conjunction with a width) center the page */
+/*	border: 1px solid #000000;*/
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	overflow: hidden;
+	background-color: #fff; 
+	-moz-border-radius: 45px;
+	-webkit-border-radius: 45px;
+	border: 2px solid gray;
+	padding: 10px;
+/*	background: url(/tomar11/images/bg.transblack.png) repeat;*/
+
+} 
+
+
+.epoka #precontainer { 
+	/*background: url(images/bg.epoka.light.png);*/
+	width: 100%;
+	height:100%;
+	margin:0px;
+	padding: 0px;
+	overflow: hidden;
+	/*background: url(/tomar11/images/bg.burn.top.png) repeat-x;*/
+	
+	/* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.epoka #tittle { 
+	/*background: url(images/bg.epoka.light.png);*/
+	width: 250px;
+	height:23px;
+	margin:10px 0px 10px 0px;
+	padding:20px;
+	/*text-align:left;*/
+	font-family: Segoe;
+	font-size:22px;
+	/*color: #323636;*/
+	v
+	color: #fef4e9;
+	border: solid 1px #da7c0c;
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+	
+	
+	/*background: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+	background: -moz-linear-gradient(top,  #fff,  #ededed);
+	/*border:	1px solid black;
+	/*background: url(/tomar11/images/bg.burn.top.png) repeat-x;*/
+	
+	/* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+}
+.epoka #menuheader { 
+	/*background: url(images/bg.epoka.light.png);*/
+	width: 100%;
+	height:23px;
+	margin:0px;
+	padding: 7px;
+	text-align:center;
+	/*border:	1px solid black;
+	/*background: url(/tomar11/images/bg.burn.top.png) repeat-x;*/
+	
+	/* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+}
+.epoka #menuheader a{ 
+	font-family: Segoe;
+	font-size: 16px;
+	color: #323636;
+	//font-weight:550;
+	letter-spacing:-1px;
+	text-decoration: none;
+	//padding: 0px 2px 0 2px;
+	padding: 4px;
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	
+	
+	
+}
+.epoka #menuheader a:hover{ 
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	color: white;
+	font-weight: 100;	
+	background: #00b5cb;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00b5cb), to(#019aac));
+	background: -moz-linear-gradient(top,  #00b5cb,  #019aac);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00b5cb', endColorstr='#019aac');
+}
+
+
+
+.epoka #poscontainer { 
+	width:100%; 
+	margin:80%;
+	height:120px;
+	float:left;
+	/* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of , you may want to remove the padding. */
+} 
+.epoka #header { 
+	background: url(images/Logo.png) ;
+	background-repeat:no-repeat;
+	background-position:top;
+	width: 100%; 
+	display: table; 
+	/*background: url(images/back-bg.jpg) no-repeat center top;*/
+	height: 148px;
+	/*padding: 0 10px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.epoka #header-image {
+	float:right;
+	width:100px;
+	height:100px;
+	padding-top:60px;
+	
+	/*padding: 0 495px;*/  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.epoka #header h1 {
+	/*margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	/*padding: 10px 0;*/ /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+#a:minifoto{
+background: url(/tomar11/images/bg.transblack.png) repeat;
+}
+
+/* Tips for sidebar1:
+1. Be aware that if you set a font-size value on this div, the overall width of the div will be adjusted accordingly.
+2. Since we are working in ems, it's best not to use padding on the sidebar itself. It will be added to the width for standards compliant browsers creating an unknown actual width. 
+3. Space between the side of the div and the elements within it can be created by placing a left and right margin on those elements as seen in the ".epoka #sidebar1 p" rule.
+*/
+.epoka #sidebar1 {
+	float: left;
+	width: 170px; /* since this element is floated, a width must be given */
+	height: 100%;
+	/*font-family:Verdana, Geneva, sans-serif;
+	/*font-size:9px;*/
+	margin-top:5px;
+	margin-left:18px;
+	padding:5px;
+	 /* the background color will be displayed for the length of the content in the column, but no further */
+/*	padding: 15px 0; /* top and bottom padding create visual space within this div */
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	border: solid 1px #cccccc;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	background: -webkit-gradient(linear, left top, left bottom, from(#eeeeee), to(#cccccc));
+	background: -moz-linear-gradient(top,  #eeeeee,  #cccccc);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#cccccc');
+	
+}
+
+
+
+.epoka #pageContent {
+	float:left;
+	width:600px;
+	/*background: url(/tomar11/images/bg.transblack.png) repeat;*/
+	/*height: 380px;*/
+}
+/*Manejor de los posts*/
+.post {
+	/*border: 1px dotted black;*/
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:9px;
+	text-decoration: none;
+	/*width: 790px;*/
+	/*padding: 5px;*/
+	/*background: url(/tomar11/images/bg.transblack.png) repeat;*/
+	/*height: 380px;*/
+	width:660px;
+	outline: none;
+	cursor: default;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 1em .55em;
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	margin-left:2px;
+	border: solid 1px #cccccc;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	background: -webkit-gradient(linear, left top, left bottom, from(#eeeeee), to(#cccccc));
+	background: -moz-linear-gradient(top,  #eeeeee,  #cccccc);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#cccccc');
+	
+	
+}
+
+.post a{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-decoration: none;
+	
+	/*background: url(/tomar11/images/bg.transblack.png) repeat;*/
+	/*height: 380px;*/
+	
+}
+
+.widgettitle{
+	color: white;
+    background: #00b5cb;
+	/*font-family:Verdana, Geneva, sans-serif;*/
+	font-family:Segoe;
+	font-size:16px;
+	/*cursor: pointer;*/
+	text-decoration: none;
+	/*font: 14px/100% Arial, Helvetica, sans-serif;*/	
+	margin:0px;
+	padding: .5em 1em .55em;
+		text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	border: solid 1px #019aac;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	background: -webkit-gradient(linear, left top, left bottom, from(#00b5cb), to(#019aac));
+	background: -moz-linear-gradient(top,  #00b5cb,  #019aac);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00b5cb', endColorstr='#019aac');
+
+	
+}
+.widgettitle a{
+font-weight:400;
+font-family:Segoe;
+	font-size:16px;
+}
+#sidebar1 ul{
+list-style-type:none;
+margin:0px;
+padding:0px;
+}
+#sidebar1 .cat-item{
+	font-family:Segoe;
+	font-size:12px;
+	text-decoration:none;
+	color: #323636;
+	text-align:center;
+	/*font: 14px/100% Arial, Helvetica, sans-serif;*/	
+	padding: .5em 1em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+#sidebar1 .cat-item a{
+	text-decoration: none;
+	color: #323636;
+}
+.postmetadata{
+	color: white;
+    background: #00b5cb;
+	/*font-family:Verdana, Geneva, sans-serif;*/
+	font-family:Segoe;
+	font-size:16px;
+	display:inline-block;
+	width:660px;
+	outline: none;
+	cursor: pointer;
+	text-decoration: none;
+	margin-top:5px;
+	/*font: 14px/100% Arial, Helvetica, sans-serif;*/	
+	padding: .5em 1em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	border: solid 1px #019aac;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	background: -webkit-gradient(linear, left top, left bottom, from(#00b5cb), to(#019aac));
+	background: -moz-linear-gradient(top,  #00b5cb,  #019aac);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00b5cb', endColorstr='#019aac');
+
+	
+	
+	
+}
+
+.postmetadata a{
+	color: white;
+   /* background: #00b5cb;*/
+	text-decoration: none;
+	/*font-family:Verdana, Geneva, sans-serif;*/
+	/*font-size:16px;*/
+	
+	
+}
+/* Detalle del titulo del post */
+#info-post{
+	font-family:Segoe;
+	font-size:13px;
+	
+	float:right;
+	
+}
+#info-post a{
+	text-decoration: none;
+	color:white;
+}
+
+
+#titulo-post{
+	
+	
+	float:left;
+	
+}
+#thumb{
+	float:left;
+	width:120px;
+	padding:5px;
+}
+#excerpt{
+	padding: 0 7px;
+	float:left;
+	width:520px;
+	height:113px;
+	text-align: justify;
+	font-family:Segoe;
+	font-size:11px;
+}
+
+
+.entry{
+	display:inline-block;
+	width: 800px;
+	text-decoration: none;
+	
+	
+
+}
+.entrylisting{
+	display:inline-block;
+	width: 800px;
+	text-decoration: none;
+	
+	
+
+}
+
+
+.epoka #Precio a{
+	/*float:right;*/
+	margin-top:15px;
+	padding:10px;
+	font-family:Segoe;
+	font-size:20px;
+	/*text-align:right;*/
+	float:right;
+}
+
+
+.epoka #sidebar1 h3, .epoka #sidebar1 p, .epoka #pageContent p {
+	margin-left: 0px; /* the left and right margin should be given to every element that will be placed in the side columns */
+	margin-right: 0px;
+	color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:9px;
+}
+
+/* Tips for mainContent:
+1. If you give this #mainContent div a font-size value different than the #sidebar1 div, the margins of the #mainContent div will be based on its font-size and the width of the #sidebar1 div will be based on its font-size. You may wish to adjust the values of these divs.
+2. The space between the mainContent and sidebar1 is created with the left margin on the mainContent div.  No matter how much content the sidebar1 div contains, the column space will remain. You can remove this left margin if you want the #mainContent div's text to fill the #sidebar1 space when the content in #sidebar1 ends.
+3. To avoid float drop, you may need to test to determine the approximate maximum image/element size since this layout is based on the user's font sizing combined with the values you set. However, if the user has their browser font size set lower than normal, less space will be available in the #mainContent div than you may see on testing.
+4. In the Internet Explorer Conditional Comment below, the zoom property is used to give the mainContent "hasLayout." This avoids several IE-specific bugs that may occur.
+*/
+.epoka #mainContent {
+	float:left;
+	width: 650px;
+	height: 100%;
+	/*padding: 0 20%;*/
+	/*margin: 0 1.5em 0 13em; /* the right margin can be given in ems or pixels. It creates the space down the right side of the page. */
+} 
+.epoka #mainContent-listing {
+	float:left;
+	width: 680px;
+	height: 100%;
+	margin-left:12px;
+	/*margin: 0 1.5em 0 13em; /* the right margin can be given in ems or pixels. It creates the space down the right side of the page. */
+} 
+.epoka #listingCat {
+	float:left;
+	width: 680px;
+	height: 100%;
+	margin:0px;
+	/*margin: 0 1.5em 0 13em; /* the right margin can be given in ems or pixels. It creates the space down the right side of the page. */
+} 
+
+.epoka #content {
+	float:left;
+	width: 680px;
+	height: 100%;
+	margin-left:12px;
+	/*margin: 0 1.5em 0 13em; /* the right margin can be given in ems or pixels. It creates the space down the right side of the page. */
+} 
+.epoka #footer { 
+	float: left;
+	height:auto;
+	width:100%;
+	padding: 0 10px;
+	
+	/*background: url(/tomar11/images/bg.transblack.png) repeat;*/
+	/*padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+/*	background:url(/tomar11/images/bg.transblack.png) repeat;*/
+/*background:black;*/
+} 
+.epoka #tablaCategorias_Main { 
+	width: 100%;
+	height:100%;
+	margin:0px;
+	padding: 0 0 0 8px;
+
+} 
+.epoka #tablaCategorias_Main a{
+	display: in-line-block;
+	color:white;
+	text-decoration: none;
+	border: 0px;
+	font-family: Segoe;
+	color: #323636;
+	font-weight:550;
+	letter-spacing:-1px;
+	
+	
+}
+.epoka #categoria-unit{
+ width:125px;
+ height:175px;
+ text-align:center;
+ float:left;
+ //padding: 5px;
+ margin:15px;
+}
+.epoka #subcat{
+ width:112px;
+ height:30px;
+ text-align:center;
+ padding: 0;
+ margin-left:10px;
+ color: white;
+}
+.epoka #subcat a{
+ color: white;
+}
+
+
+.epoka #tablaCategorias_row { 
+	display: block
+	width: 100%;
+	height:190px;
+	margin:0px;
+	padding: 0 5px 0 5px;
+	/*padding: 30px 0 0 200px;*/
+	/*background: url(/tomar11/images/bg.burn.top.png) repeat-x;*/
+	
+	/* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.epoka #tablaCategorias_row a{ 
+	color: #323636;
+	/*padding: 30px 0 0 200px;*/
+	/*background: url(/tomar11/images/bg.burn.top.png) repeat-x;*/
+	
+	/* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.epoka #tablaCategorias_row_img { 
+	
+	width: 100%;
+	height:125px;
+	margin: 0 0 0 5px;
+	padding: 0 5px 0 5px;
+	/*background: url(/tomar11/images/bg.burn.top.png) repeat-x;*/
+	
+	/* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.epoka #tablaCategorias_row_menu { 
+	width: 100%;
+	height:100%;
+	margin:0px;
+	padding: 20px 0 20px 35px;
+	/*background: url(/tomar11/images/bg.burn.top.png) repeat-x;*/
+	
+	/* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+
+.epoka #datos{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	/*width: 700px;*/
+	text-align:right;
+	padding:0px;
+	margin:0px;
+}
+.epoka #footer p {
+	color:gray;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:9px;
+	height:20px;
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0 0 18%; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+
+}
+
+/* Miscellaneous classes for reuse */
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+/*BUTTONS*/
+.button {
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+.bigrounded {
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	border-radius: 2em;
+}
+.medium {
+	font-size: 14px;
+	padding: .4em 1.5em .42em;
+}
+.small {
+	font-size: 12px;
+	padding: .2em 1em .275em;
+}
+.xsmall {
+	font-size: 9px;
+	padding: .1em .50em .225em;
+	
+}
+
+.orange {
+	color: #fef4e9;
+	border: solid 1px #da7c0c;
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+.orange:hover {
+	background: #f47c20;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+	background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+.orange:active {
+	color: #fcd3a5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
+.white {
+	color: #606060;
+	border: solid 1px #b7b7b7;
+	background: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+	background: -moz-linear-gradient(top,  #fff,  #ededed);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+}
+.white:hover {
+	background: #ededed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+	background: -moz-linear-gradient(top,  #fff,  #dcdcdc);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+}
+.white:active {
+	color: #999;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#fff));
+	background: -moz-linear-gradient(top,  #ededed,  #fff);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff');
+}
+
+
+/* blue */
+.calypso {
+	color: #d9eef7;
+	border: solid 1px #0076a3;
+	background: #00b4cb;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#00b4cb));
+	background: -moz-linear-gradient(top,  #00adee,  #00b4cb);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#00b4cb');
+	
+}
+.calypso:hover {
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');
+}
+.calypso:active {
+	color: #80bed6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
+	background: -moz-linear-gradient(top,  #0078a5,  #00adee);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+}
+
+/* red */
+.red {
+	color: #faddde;
+	border: solid 1px #980c10;
+	background: #d81b21;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ed1c24), to(#aa1317));
+	background: -moz-linear-gradient(top,  #ed1c24,  #aa1317);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed1c24', endColorstr='#aa1317');
+}
+.red:hover {
+	background: #b61318;
+	background: -webkit-gradient(linear, left top, left bottom, from(#c9151b), to(#a11115));
+	background: -moz-linear-gradient(top,  #c9151b,  #a11115);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#c9151b', endColorstr='#a11115');
+}
+.red:active {
+	color: #de898c;
+	background: -webkit-gradient(linear, left top, left bottom, from(#aa1317), to(#ed1c24));
+	background: -moz-linear-gradient(top,  #aa1317,  #ed1c24);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#aa1317', endColorstr='#ed1c24');
+}
+
+
+
+#slider {
+
+	/* You MUST specify the width and height */
+	width:660px;
+	height:398px;
+	position:relative;	
+	overflow:hidden;
+}
+
+#mask-gallery {
+	
+	overflow:hidden;	
+}
+
+#gallery {
+	
+	/* Clear the list style */
+	list-style:none;
+	margin:0;
+	padding:0;
+	
+	z-index:0;
+	
+	/* width = total items multiply with #mask gallery width */
+	width:900px;
+	overflow:hidden;
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+}
+
+	#gallery li {
+
+		
+		/* float left, so that the items are arrangged horizontally */
+		float:left;
+	}
+
+
+#mask-excerpt {
+	
+	/* Set the position */
+	position:absolute;	
+	top:0;
+	left:533px;
+	z-index:500px;
+	height:398;
+	/* width should be lesser than #slider width */
+	width:200px;
+	overflow:hidden;	
+	
+
+}
+#btn-next{
+	
+	/* Set the position */
+	position:absolute;	
+	top:180px;
+	left:432px;
+	z-index:500px;
+	/* width should be lesser than #slider width */
+	width:50px;
+	overflow:hidden;	
+	
+
+}
+#btn-prev{
+	
+	/* Set the position */
+	position:absolute;	
+	top:180px;
+	left:0px;
+	z-index:500px;
+	/* width should be lesser than #slider width */
+	width:50px;
+	overflow:hidden;	
+	
+
+}
+
+.button-gal{
+	color:white;
+	background:gray;
+	filter:alpha(opacity=60);
+	-moz-opacity:0.6;  
+	-khtml-opacity: 0.6;
+	opacity: 0.6; 
+	font: 12px/100% Segoe;
+	padding: .5em 2em .55em;
+	
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+	
+#excerptgal {
+	/* Opacity setting for different browsers */
+	filter:alpha(opacity=60);
+	-moz-opacity:0.6;  
+	-khtml-opacity: 0.6;
+	opacity: 0.6;  
+	
+	/* Clear the list style */
+	list-style:none;
+	margin:0;
+	padding:0;
+	
+	/* Set the position */
+	z-index:10;
+	position:absolute;
+	top:0;
+	left:0;
+	
+	/* Set the style */
+	width:135px;
+	background-color:#000;
+	overflow:hidden;
+	font-family:Segoe;
+	font-size:11px;
+	color:#fff;	
+	
+	
+}
+
+	#excerptgal li {
+		padding:5px;
+	}
+	
+
+
+.clear {
+	clear:both;	
+}
+
+#tittleIndex{
+width: 100%; 
+height: 20px;
+padding-left:15px;
+margin-top:10px;	
+float:left;	
+}
+
